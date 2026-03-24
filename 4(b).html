@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Larger Number</title>
+</head>
+
+<body>
+
+<script>
+    let a = parseInt(prompt("Enter first number:"));
+    let b = parseInt(prompt("Enter second number:"));
+    let c = parseInt(prompt("Enter third number:"));
+
+    if (a > b && a > c) {
+        document.write(a + " is the LARGEST NUMBER");
+        alert(a + " is the LARGEST NUMBER");
+    } 
+    else if (b > a && b > c) {
+        document.write(b + " is the LARGEST NUMBER");
+        alert(b + " is the LARGEST NUMBER");
+    } 
+    else if (c > a && c > b) {
+        document.write(c + " is the LARGEST NUMBER");
+        alert(c + " is the LARGEST NUMBER");
+    } 
+    else {
+        document.write("Numbers are EQUAL");
+        alert("Numbers are EQUAL");
+    }
+</script>
+
+</body>
+</html>
